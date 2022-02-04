@@ -1,0 +1,10 @@
+mutation {
+  addPlayer(
+    input: { name: "test2Name", surname: "test2Surname", position: SF }
+  ) {
+    id
+    name
+    surname
+    position
+  }
+}

@@ -1,0 +1,8 @@
+mutation {
+  deletePlayer(id: 5) {
+    id
+    name
+    surname
+    position
+  }
+}

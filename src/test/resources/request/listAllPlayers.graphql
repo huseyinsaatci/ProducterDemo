@@ -1,0 +1,8 @@
+query {
+  listAllPlayers {
+    id
+    name
+    surname
+    position
+  }
+}
